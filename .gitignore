@@ -1,0 +1,106 @@
+# ==============================================================================
+# Documentation & Notes
+# Ignores files like About.md and other future markdown documentation/notes,
+# while explicitly preserving README files.
+# ==============================================================================
+*.md
+![Rr][Ee][Aa][Dd][Mm][Ee].md
+!README.md
+!Readme.md
+!readme.md
+
+# ==============================================================================
+# Python & Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+develop-eggs/
+eggs/
+parts/
+bin/
+var/
+sdist/
+.installed.cfg
+lib/
+lib64/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==============================================================================
+# Jupyter Notebooks
+# ==============================================================================
+.ipynb_checkpoints
+*-checkpoint.ipynb
+
+# ==============================================================================
+# Environment Variables & Secrets
+# ==============================================================================
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+secrets/
+
+# ==============================================================================
+# IDEs & Code Editors
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ==============================================================================
+# Operating System Artifacts
+# ==============================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ==============================================================================
+# Logs & Temporary Files
+# ==============================================================================
+*.log
+logs/
+*.tmp
+*.temp
+tmp/
+temp/
