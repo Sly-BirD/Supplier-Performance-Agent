@@ -38,9 +38,10 @@ parts/
 bin/
 var/
 sdist/
-.installed.cfg
-lib/
-lib64/
+/lib/
+/lib64/
+!frontend/src/lib/
+!frontend/src/lib/**
 
 # Testing & Coverage
 .pytest_cache/
