@@ -104,3 +104,38 @@ logs/
 *.temp
 tmp/
 temp/
+
+# ==============================================================================
+# Databases & Local Data Stores
+# ==============================================================================
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ==============================================================================
+# Node.js & Frontend Artifacts
+# ==============================================================================
+node_modules/
+*/node_modules/
+.next/
+*/.next/
+.turbo/
+*/.turbo/
+out/
+*/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# ==============================================================================
+# AI Agent & Antigravity Scratch Files
+# ==============================================================================
+.agents/
+.gemini/
+.antigravity/
+.system_generated/
+brain/
+scratch/
+test_db_conn.py
+current_problems*
+

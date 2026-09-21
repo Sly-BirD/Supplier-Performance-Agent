@@ -1,0 +1,16 @@
+SupplierName,Category,Region,DueDate,ShipDate,Qty_Ordered,Qty_Received,Reject_Qty,ContractPrice,ActualPrice,Response_Hours
+Alpha Steel Co,Raw Materials,North America,2026-09-01,2026-09-01,500,500,3,25.00,25.00,6
+Alpha Steel Co,Raw Materials,North America,2026-09-05,2026-09-05,600,600,5,25.00,25.50,8
+Alpha Steel Co,Raw Materials,North America,2026-09-10,2026-09-10,400,400,2,25.00,24.80,5
+Bright Plastics Ltd,Packaging,Europe,2026-09-02,2026-09-04,1000,980,50,8.00,8.50,24
+Bright Plastics Ltd,Packaging,Europe,2026-09-06,2026-09-10,800,790,45,8.00,9.20,30
+Bright Plastics Ltd,Packaging,Europe,2026-09-11,2026-09-15,600,580,55,8.00,9.50,40
+Cyan Electronics,Electronics,Asia Pacific,2026-09-01,2026-09-01,200,200,1,120.00,120.00,3
+Cyan Electronics,Electronics,Asia Pacific,2026-09-04,2026-09-04,300,300,2,120.00,119.50,4
+Cyan Electronics,Electronics,Asia Pacific,2026-09-09,2026-09-09,250,250,1,120.00,120.50,2
+Delta Fasteners Inc,Industrial,North America,2026-09-03,2026-09-06,2000,1950,100,3.50,3.80,18
+Delta Fasteners Inc,Industrial,North America,2026-09-07,2026-09-12,1800,1750,120,3.50,4.00,22
+Delta Fasteners Inc,Industrial,North America,2026-09-12,2026-09-18,1500,1450,150,3.50,4.20,36
+Echo Logistics,Logistics,Global,2026-09-01,2026-09-01,100,100,0,200.00,198.00,1
+Echo Logistics,Logistics,Global,2026-09-05,2026-09-05,120,120,0,200.00,200.00,2
+Echo Logistics,Logistics,Global,2026-09-10,2026-09-10,80,80,0,200.00,195.00,1.5
